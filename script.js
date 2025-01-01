@@ -7,8 +7,6 @@ const messageDiv = document.getElementById('message');
 const root=document.querySelector(".root");
 
 
-   // Show the message
-   messageDiv.style.display = 'block';
 
    // Function to hide the message and show the content
    okButton.addEventListener('click', function() {
