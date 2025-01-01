@@ -2,11 +2,12 @@
     display: flex;
     gap:5rem;
     padding:5% 5% 5% 10%;
-    background-image: url("https://thumbs.dreamstime.com/b/to-do-list-wood-background-48112041.jpg");
+    background-image: url("to-do-list-wood-background.webp");
     background-size: contain;
     min-width: 100vw;
     max-height: 100vh;
-    background-blend-mode: normal;}
+    background-blend-mode: normal;
+}
 
 .container{
     width:300px;
@@ -99,10 +100,13 @@ h3{
         opacity: 0.7;
     }
     body{
-        background-image: url('https://th.bing.com/th/id/R.2d8e61b8420097f56d9ba344b8d00328?rik=1J%2byn6Kr1%2byGLA&riu=http%3a%2f%2fwww.pdeaetender.org%2fimages%2fbrowser_not_supported.png&ehk=8cl%2bMkT4HIsPeBeya5j%2bgsADBio15gE7MnEk1i60xss%3d&risl=&pid=ImgRaw&r=0');
+        background-image: url(Browser-Unsupportive.png);
         background-repeat: no-repeat;
         background-size: 100vw 100vh;
         opacity: 0.7;
+    }
+    .root{
+        display: none;
     }
   }
   
